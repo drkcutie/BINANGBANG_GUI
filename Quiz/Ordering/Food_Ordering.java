@@ -1,3 +1,5 @@
+package Ordering;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -62,7 +64,7 @@ public class Food_Ordering extends JFrame {
         app.setContentPane(app.JPanel);
         app.setSize(600, 400);
         app.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        app.setTitle("Simple Calculator");
+        app.setTitle("Food Ordering System");
         app.setVisible(true);
     }
 }
